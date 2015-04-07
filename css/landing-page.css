@@ -164,3 +164,14 @@ footer {
 p.copyright {
     margin: 15px 0 0;
 }
+
+@media (max-width: 480px) {
+
+.rotateMobile{
+transform:rotate(90deg);
+-ms-transform:rotate(90deg); /* IE 9 */
+-moz-transform:rotate(90deg); /* Firefox */
+-webkit-transform:rotate(90deg); /* Safari and Chrome */
+-o-transform:rotate(90deg); /* Opera */
+}
+}
