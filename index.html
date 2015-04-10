@@ -26,6 +26,29 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+	
+	<!-- Smooth scrolling-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+	<script>
+	$(function() {
+	  $('a[href*=#]:not([href=#])').click(function() {
+	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+
+	      var target = $(this.hash);
+	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	      if (target.length) {
+	        $('html,body').animate({
+	          scrollTop: target.offset().top
+	        }, 10000);
+	        return false;
+	      }
+	    }
+	  });
+	});
+	
+	</script>
+	
 
 </head>
 
@@ -47,7 +70,7 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a href="#">Link1</a>
+                    <a href="#research">Research</a>
                 </li>
                 <li>
                     <a href="#">Projects</a>
@@ -93,7 +116,7 @@
         <div class="container">
 
             <div class="row">
-                <div class="col-lg-5 col-sm-6">
+                <div class="col-lg-5 col-sm-6" id = "research" >
                     <div class="clearfix"></div>
                     <h2 class="section-heading">Research Interests:</h2>
                     <p class="lead">I love mussels. I study how mussels attach themselves to rocks.</p>
