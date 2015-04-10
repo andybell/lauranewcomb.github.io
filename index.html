@@ -27,29 +27,50 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 	
-	<!-- Smooth scrolling-->
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-
+	
+	<!-- Smooth Scroll -->
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.smooth-scroll.js"></script>
 	<script>
-	$(function() {
-	  $('a[href*=#]:not([href=#])').click(function() {
-	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+    $(document).ready(function() {
 
-	      var target = $(this.hash);
-	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-	      if (target.length) {
-	        $('html,body').animate({
-	          scrollTop: target.offset().top
-	        }, 10000);
-	        return false;
-	      }
-	    }
-	  });
-	});
-	
+      $('ul.mainnav a').smoothScroll();
+
+      $('p.subnav a').click(function(event) {
+        event.preventDefault();
+        var link = this;
+        $.smoothScroll({
+          scrollTarget: link.hash
+        });
+      });
+
+      $('#change-speed').on('click', function() {
+        var $p1 = $('ul.mainnav a').first(),
+            p1Opts = $p1.smoothScroll('options') || {};
+
+        p1Opts.speed = p1Opts.speed === 1400 ? 400 : 1400;
+        $p1.smoothScroll('options', p1Opts);
+      });
+
+      $('button.scrollsomething').click(function() {
+        $.smoothScroll({
+          scrollElement: $('div.scrollme'),
+          scrollTarget: '#findme'
+        });
+        return false;
+      });
+      $('button.scrollhorz').click(function() {
+        $.smoothScroll({
+          direction: 'left',
+          scrollElement: $('div.scrollme'),
+          scrollTarget: '.horiz'
+        });
+        return false;
+      });
+
+    });
+
 	</script>
-	
-
 </head>
 
 	<body>
