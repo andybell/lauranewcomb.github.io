@@ -27,6 +27,11 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+		<!-- Fancy box -->
+		<script src="js/jquery-1.11.2.min.js"></script>
+		<link rel="stylesheet" href="css/jquery.fancybox.css" media="screen">
+		<script src="js/jquery.fancybox.js"></script>
+
 </head>
 
 	<body>
@@ -138,33 +143,34 @@
 						</div>
 
 						<div class="row">
-							<div class="col-xs-6 col-md-4">
-								<a href="img/IMG_2922.jpg" class="thumbnail">
-										<img src="img/IMG_2922.jpg" alt="...">
-								</a>
-								<div class="text-center">
-										<h4>Mussels attached to rock with byssal threads</h4>
-								</div>
-							</div>
-							<div class="col-xs-6 col-md-4">
-								<a href="img/102_1116.JPG" class="thumbnail">
-										<img src="img/102_1116.JPG" alt="...">
-								</a>
-								<div class="text-center">
-										<h4>Mussels growing on an aquaculture raft</h4>
-								</div>
-							</div>
-							<div class="col-xs-6 col-md-4">
-								<a href="img/IMG_3170.JPG" class="thumbnail">
-										<img src="img/IMG_3170.JPG" alt="...">
-								</a>
-								<div class="text-center">
-										<h4>A mussel bed on a rocky shore</h4>
+							<div class="list-group gallery">
+								<div class="col-xs-6 col-md-4">
+										<a class="thumbnail fancybox" rel="lightbox" href="img/IMG_2922.JPG">
+												<img class ="img-responsive" alt="" src="img/IMG_2922.jpg">
+												<div class="text-center">
+														<h4>Mussels attached to rock with byssal threads</h4>
+												</div>
+										</a>
+										<a class="thumbnail fancybox" rel="lightbox" href="img/IMG_2922.JPG">
+												<img class ="img-responsive" alt="" src="img/IMG_2922.jpg">
+												<div class="text-center">
+														<h4>Mussels attached to rock with byssal threads</h4>
+												</div>
+										</a>
+										<a class="thumbnail fancybox" rel="lightbox" href="img/IMG_2922.JPG">
+												<img class ="img-responsive" alt="" src="img/IMG_2922.jpg">
+												<div class="text-center">
+														<h4>Mussels attached to rock with byssal threads</h4>
+												</div>
+										</a>
+
+
 								</div>
 							</div>
 
 						</div>
         </div>
+		</div>
         <!-- /.container -->
 
     </div>
@@ -195,8 +201,25 @@
 
 
 
-		<!-- jQuery Version 1.11.0 -->
+<!-- jQuery Version 1.11.0 -->
 <script src="js/jquery-1.11.0.js"></script>
+<!-- Fancy box -->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.fancybox.js"></script>
+
+<script>
+$(document).ready(function(){
+    //FANCYBOX
+    //https://github.com/fancyapps/fancyBox
+    $(".fancybox").fancybox({
+        openEffect: "none",
+        closeEffect: "none"
+    });
+});
+
+</script>
+
+
 
 <!-- Bootstrap Core JavaScript -->
 <script src="js/bootstrap.min.js"></script>
@@ -239,6 +262,8 @@ if (typeof console === "undefined") {
     };
 }
 </script>
+
+
 
 
 </body>
