@@ -4,8 +4,9 @@
  - [x] three photos in research section
  - [ ] adjust width of center justified div
  - [ ] home smooth scroll
- - [ ] add link section
+ - [x] add link section
  - [ ] blue box outline around contact info
- - [ ] reduce size of cover image
- - [ ] reduce size of profile image
- - [ ] rm readme
+ - [x] reduce size of cover image
+ - [x] reduce size of profile image
+ - [x] rm readme
+ - [ ] align text below images

@@ -176,7 +176,33 @@ p.copyright {
 .container-non-responsive {
   margin-left: auto;
   margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
   width: 970px;
 }
+
+
+.circle {
+	width: 150px;
+	height: 150px;
+	background: #9999ff;
+	-moz-border-radius: 75px;
+	-webkit-border-radius: 75px;
+	border-radius: 75px;
+  text-align: center;
+}
+
+.circle span {
+   height: 150px;
+   display: inline-block;
+   zoom: 1;
+   *display: inline;
+   vertical-align: middle;
+ }
+.circle p {
+   display: inline-block;
+   zoom: 1;
+   *display: inline;
+   vertical-align: middle;
+   color: #000000;
+ }
