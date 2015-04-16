@@ -10,3 +10,7 @@
  - [x] reduce size of profile image
  - [x] rm readme
  - [ ] align text below images
+ - [ ] constant pic extensions
+ - [ ] reduce space in contact section
+ - [ ] spell check
+ - [ ] gap between photos? may be due to bad crop on center pic
