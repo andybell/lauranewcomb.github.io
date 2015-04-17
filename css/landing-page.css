@@ -100,6 +100,13 @@ h6 {
     background-color: #9999ff;
 }
 
+.content-section-first-b {
+    padding: 0px;
+    padding-top: 65px;
+    padding-bottom: 50px;
+    background-color: #f3f3f3;
+}
+
 .content-section-b {
     padding: 30px;
     background-color: #f3f3f3;
