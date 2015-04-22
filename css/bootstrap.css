@@ -5958,6 +5958,7 @@ button.close {
   display: block;
   margin-right: auto;
   margin-left: auto;
+  text-align: center;
 }
 .pull-right {
   float: right !important;
