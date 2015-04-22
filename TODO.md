@@ -9,7 +9,7 @@
  - [x] reduce size of cover image
  - [x] reduce size of profile image
  - [x] rm readme
- - [ ] align text below images
+ - [x] align text below images
  - [x] constant pic extensions
  - [x] reduce space in contact section
  - [x] spell check
@@ -27,7 +27,7 @@
  - [ ] The link to the dailyclimate.org news link may eventually expire. It might be wise to save this page as pdf to have a back up link. (A live link is better for SEO for the time being)
  - [x] Small note: When clicking on "Laura A. Newcomb" on the top left of the page, have the page limits return to original "home" screen (top of the purple banner, not the top of her photo)
  - [ ] Make sure margins are the same throughout the whole length
- - [ ] The text under each photo has a different justification.
+ - [x] The text under each photo has a different justification.
  - [ ] Rework this sentence to flow a little better " In the face of ocean warming and ocean acidification, these both are questions to answer in light of how organisms will live in a high CO2 world."
  - [x] The box next to her photo is a different size than her photo. I would maybe even get rid of the box around her name and contact info. Fix adjusted border to 1px.
  - [x] The first pic says "mussels" (plural) when there is only one mussel. I know what is intended, but maybe change phrasing slightly
