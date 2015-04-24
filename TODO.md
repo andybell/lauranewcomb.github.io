@@ -13,7 +13,7 @@
  - [x] constant pic extensions
  - [x] reduce space in contact section
  - [x] spell check
- - [ ] gap between photos? may be due to bad crop on center pic
+ - [x] gap between photos? may be due to bad crop on center pic
 
 
 
