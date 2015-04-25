@@ -1,0 +1,301 @@
+
+/*---Archive Page---*/
+
+#frame .resultitem {
+	margin: 5px;
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-left: 2px;
+	padding-bottom: 7px;
+	clear: both;
+	}
+
+#frame .resultitem h3 {
+	padding-top: 1px;
+	}
+
+#frame .resultitem ul {
+	margin: 0px 0px 0px 0px;
+	padding-left: 5px;
+	}
+
+#frame .resultitem li {
+        list-style-type: none;
+        padding-left: 5px;
+	margin: 0px 0px 0px 0px;
+	}
+
+#frame .disclaimer {
+	margin: 10px;
+	font-size: 10px;
+	clear: both;
+}
+
+#frame .buttons {
+	margin: 0px 0px 0px 0px;
+	padding-left: 7px;
+	}
+
+#frame .buttons ul {
+	list-style: none;
+	margin: 0px 0px 3px 0px;
+	padding-left: 2px;
+	float: right;
+	clear: none;
+	}
+
+#frame .buttons li {
+	float: left;
+	border: 1px solid #999; 
+	margin: 0px 5px 0px 0px; 
+	width: 9.0em; 
+	list-style-type: none;
+	}
+
+#frame head:first-child+body .buttons li {
+	padding-right:2px;
+	}
+
+#frame .buttons li a {
+	color: #333; 
+	text-decoration: none;
+	}
+
+#frame .button {
+	display:block;
+	font: 0.8em verdana, arial, sans-serif;
+	padding: 2px 0 2px 0px; 
+	border: 1px solid white;
+	text-decoration: none; 
+	width:100%;
+	background: #ddd;
+	color: #333;
+	}
+
+#frame .button span {
+	font: bold 1.0em verdana, arial, sans-serif;
+	padding: 2px 3px 2px 3px; 
+	color: #fff;
+	}  
+
+#frame .rss span {
+	background: #f60;
+	}
+
+#frame .geo span {
+	background: #093; 
+	font-style: italic;
+	}
+
+#leftcolumn {
+	width: 200px;
+	padding: 2px;
+	margin: 10px 10px 10px 0px;
+	background: #fff;
+	}
+
+#leftcolumn .suggestions {
+	padding: 2px;
+	}
+
+#frame #description {
+	margin-top: 5px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	}
+
+#frame .breadcrumbs {
+	margin: 10px 0px 10px 0px;
+        padding-bottom: 10px;
+	font-weight: bold;
+	}
+
+#frame .breadcrumbs li {
+	margin: 0px 0px 2px 0px;
+        list-style-type: none;
+	}
+
+#frame .noresults {
+	margin: 0px 0px 0px 0px;
+        padding-bottom: 10px;
+	font-weight: bold;
+	color: red;
+	}
+
+#frame .noresults li {
+	margin: 0px 0px 0px 0px;
+        list-style-type: none;
+	}
+
+#frame .recoveryoptions {
+	margin: 0px 0px 0px 0px;
+        padding-bottom: 10px;
+	}
+
+#frame .recoveryoptions li {
+	margin: 0px 5px 0px 0px;
+        list-style-type: none;
+	}
+
+#results {
+	margin-top: 10px;
+	margin-bottom: 5px;
+	clear: both;
+	}
+
+#frame .selectableresult {
+	padding: 1px 1px 1px 1px;
+	width: 400px;
+}
+
+#frame .selectableresult h3 {
+	white-space: nowrap;
+}
+
+#frame .selectableresult:hover {
+	border: 1px solid blue;
+	padding: 0px 0px 0px 0px;
+	color: blue;
+}
+
+#frame .resultitem {
+	margin: 5px;
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-left: 2px;
+	padding-bottom: 7px;
+	clear: both;
+	}
+
+#frame .resultitem h3 {
+	padding-top: 1px;
+	}
+
+#frame .resultitem ul {
+	margin: 0px 0px 0px 0px;
+	padding-left: 5px;
+	}
+
+#frame .resultitem li {
+        list-style-type: none;
+        padding-left: 5px;
+	margin: 0px 0px 0px 0px;
+	}
+#frame table {
+/*  commented by Cormac - was messing with the resultitem background color
+	float: left;
+*/
+	margin: 0px;
+	padding: 0px;
+	}
+
+#frame td {
+	font: 12px Arial, Helvetica;
+	margin: 0px;
+	padding: 0px;
+	}
+
+#frame p {
+	margin: 0px 5px 5px 5px;
+	padding-bottom: 10px;
+/*        background: #fff; */
+        color: black;
+	}	
+
+#frame img { 
+	border-style: none; 
+	} 
+
+#frame h1 {
+	padding: 2px;
+	margin: 0px;
+	font-size: 18px;
+	}
+
+#frame h2 {
+	padding: 2px;
+	margin: 0px;
+	font-size: 16px;
+	}
+
+#frame h3 {
+	padding: 2px;
+	margin: 0px;
+	font-size: 14px;
+	}
+
+#frame .navbar {
+	margin: 2px;
+	font-weight: bold;
+	padding: 2px;
+}
+
+#frame body > table, 
+#frame body > div {
+	text-align:left;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#frame .suggestions {
+	margin: 0px 0px 2px 0px;
+	padding: 2px;
+	width: 220px;
+	}
+
+#frame .suggestions ul {
+	margin: 0px 0px 0px 0px;
+	padding-left: 5px;
+	}
+
+#frame .suggestions ul li {
+	margin: 0px 0px 2px 0px;
+        list-style-type: none;
+	}
+
+#frame .morenewsitems ul {
+}
+
+#frame .morenewsitems li {
+	margin: 0px 0px 2px 0px;
+	}
+
+#frame .hottopics {
+	padding:0px;
+	margin: 0px;
+	border-bottom: 1px solid #000080;
+}
+
+#frame .relatedstories {
+	font-size: 11px;
+}
+
+#frame #description {
+	}
+
+#frame #description h1 {
+	font-size: 14px;
+	font-weight: bold;
+	}
+
+#frame #postdescription {
+	text-align: center;
+	}
+
+#frame #postdescription h1 {
+	font-size: 14px;
+	font-weight: bold;
+	}
+
+#frame .righttab {
+	float: right;
+}
+
+#frame .sortbar {
+	float: right;
+}
+
+#frame .tabbar {
+	float: left;
+	margin-bottom: 3px;
+}
