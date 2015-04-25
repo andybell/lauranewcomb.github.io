@@ -33,3 +33,8 @@
  - [x] The first pic says "mussels" (plural) when there is only one mussel. I know what is intended, but maybe change phrasing slightly
  - [ ] Bottom link to IGERT goes to google
  - [ ] Side Note FYI: her links on her IPOC profile are broken
+
+
+Edits
+
+- [ ] standardize link circles on all pages
