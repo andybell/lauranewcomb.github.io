@@ -1,0 +1,91 @@
+#content {
+     background: white none repeat scroll 0 0;
+     font-size: 110%;
+     padding: 1em 1em 2em !important;
+}
+
+#content h1,
+#content h2,
+#content h3, 
+#content h4, 
+#content h5, 
+#content h6 {
+     color: #005500;
+     margin: 0.75em 0 0.25em;
+     padding: 0 0 0.25em;
+}
+
+#content h1, 
+#content h2 {
+     border-bottom:1px solid #8CACBB;
+     font-weight:normal;
+}
+
+#content h1 {
+     font-size:160%;
+}
+
+#content .pullquote {
+     background-color:White;
+     border-left:4px solid #8CACBB;
+     clear:right;
+     color:#CC9933;
+     float:right;
+     font-weight:bold;
+     margin:0 0 1em 1em;
+     padding:0 1em;
+     width:35%;
+     line-height: 1.25em;
+}
+
+#content .image-right {
+     border:1px solid Black;
+     clear:both;
+     float:right;
+     margin:0.5em;
+}
+
+#content img {
+     vertical-align:middle;
+}
+
+#content p {
+     line-height: 1.5em;
+     margin:0 0 0.75em;
+}
+
+.discreet {
+     color: #76797C;
+     font-size: 85%;
+     font-weight: normal;d
+}
+
+.callout {
+     color: #CC9933;
+     font-weight: bold;
+     padding: 0 1em;
+}
+
+.image-left {
+     border: 1px solid Black;
+     clear: both;
+     float: left;
+     margin: 0.5em 1em 0.5em 0;
+}
+
+#content p a {
+     border-bottom: 0 solid #CCCCCC;
+     font-weight: bold;
+     color: #2266AA;
+     text-decoration: none;
+}
+
+#content ul {
+     list-style-image: url(http://tdcplone.dailyclimate.org/bullet.gif);
+     list-style-type: square;
+}
+
+#content ul li {
+     margin-bottom: 0.5em;
+     line-height: 1.5em;
+}
