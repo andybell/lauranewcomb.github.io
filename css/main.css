@@ -105,6 +105,7 @@ p.copyright {
 	-webkit-border-radius: 75px;
 	border-radius: 75px;
   text-align: center;
+  margin: 0 auto;
 }
 
 .circle span {
