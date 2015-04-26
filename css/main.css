@@ -39,6 +39,11 @@ h6 {
     padding-bottom: 25px;
     background-color: #9999ff;
 }
+.content-section-first-white {
+    padding-top: 75px;
+    padding-bottom: 25px;
+    background-color: #f3f3f3;
+}
 
 .content-section-blue {
     padding: 10px;
