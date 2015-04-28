@@ -33,6 +33,11 @@ h6 {
     font-weight: 400;
     text-align: center;
 }
+.lead-left {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
 
 .content-section-first {
     padding-top: 75px;
