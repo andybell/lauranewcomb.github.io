@@ -33,11 +33,21 @@ h6 {
     font-weight: 400;
     text-align: center;
 }
+.lead-left {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
 
 .content-section-first {
     padding-top: 75px;
     padding-bottom: 25px;
     background-color: #9999ff;
+}
+.content-section-first-white {
+    padding-top: 75px;
+    padding-bottom: 25px;
+    background-color: #f3f3f3;
 }
 
 .content-section-blue {
