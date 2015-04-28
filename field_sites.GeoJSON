@@ -1,0 +1,56 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ff80ff",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Friday Harbor",
+        "project": "Lab"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.01185607910156,
+          48.540477612829946
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ff8000",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Olympic NP",
+        "project": "Field site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.68830108642578,
+          48.33594079475066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#80ff00",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Penn Cove",
+        "project": "Mussel Farm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.68363952636719,
+          48.22284281261851
+        ]
+      }
+    }
+  ]
+}
