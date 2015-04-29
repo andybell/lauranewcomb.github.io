@@ -40,3 +40,9 @@ Edits
 - [x] standardize link circles on all pages
 - [ ] margin between contact and profile differs when adjusting screen size
 - [ ] make publications link to pdfs/researchgate etc?
+
+
+Map
+
+- [ ] get updated geojson sites
+- [ ] change map dimension (not full screen)
