@@ -14,6 +14,13 @@
     <!-- load geojson file -->
     <script src="sites.geojson" type="text/javascript"></script>
 
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/main.css" rel="stylesheet">
+
+
     <style>
       html, body,  #map {
         width : 100%;
@@ -22,6 +29,56 @@
     </style>
   </head>
   <body>
+    <!-- Navigation -->
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html" data-id="home">Laura A. Newcomb</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="index.html#research">Research</a>
+                </li>
+                <li>
+                    <a href="index.html#pubs">Publications</a>
+                </li>
+                <li>
+                    <a href="#" class="scroll-link" data-id="links">Links</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+  </nav>
+
+  <div class="content-section-first-white">
+    <div class="container">
+      <div class = "text-center" id = "field sites">
+        <h2 class="section-heading">Field Sites:</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1"
+          <p class="lead-left">
+           Locations around the Salish Sea where I study mussels. This include Olympic National Park, Penn Cove on Whidbey Island and UW's Friday Harbor Research Lab. 
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
     <div id="map"></div>
     <script>
       var map = L.map('map').setView([48.03, -123.20], 9);
