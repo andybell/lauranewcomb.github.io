@@ -45,4 +45,4 @@ Edits
 Map
 
 - [ ] get updated geojson sites
-- [ ] change map dimension (not full screen)
+- [x] change map dimension (not full screen)
