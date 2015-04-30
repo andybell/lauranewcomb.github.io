@@ -40,7 +40,7 @@ h6 {
 }
 
 .content-section-first {
-    padding-top: 75px;
+    padding-top: 25px;
     padding-bottom: 25px;
     background-color: #9999ff;
 }
@@ -142,13 +142,15 @@ p.copyright {
    max-width: 275px;
    border:2px solid black;
  }
-
+.navbar-pad{
+  padding-top: 50px;
+}
 .intro-header {
     padding-top: 200px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-    padding-bottom: 5px;
+    padding-bottom: 0px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/full/102_3671_crop2.JPG) no-repeat center center;
+    background: url(../img/full/102_3671_tint.JPG) no-repeat top center;
     background-size: cover;
   }
 .intro-message {
