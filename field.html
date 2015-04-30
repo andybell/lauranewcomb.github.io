@@ -98,7 +98,7 @@
       }
 
 
-      L.geoJson(sites, {
+      var sites = L.geoJson(sites, {
 
         style: function (feature) {
           return feature.properties && feature.properties.style;
@@ -117,6 +117,11 @@
           });
         }
       }).addTo(map);
+
+
+
+
+      map.fitBounds(site.getBounds());
 
 
 
