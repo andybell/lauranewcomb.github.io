@@ -64,11 +64,11 @@ h6 {
 
 .outline-box {
     padding-top: 0px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
     background-color: #f3f3f3;
     border: 1px solid black;
-    width: 300px;
+    width: 241px;
     height: 270px;
     margin: 0 auto;
 }
