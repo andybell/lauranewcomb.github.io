@@ -71,7 +71,7 @@ h6 {
     padding-left: 10px;
     padding-right: 10px;
     background-color: #f3f3f3;
-    border: 1px solid black;
+    border: 2px solid black;
     width: 241px;
     height: 270px;
     margin: 0 auto;
@@ -122,6 +122,7 @@ p.copyright {
 	border-radius: 75px;
   text-align: center;
   margin: 0 auto;
+  border: 1px solid #9999ff;
 }
 
 .circle:hover{
