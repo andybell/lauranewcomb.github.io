@@ -67,7 +67,7 @@
 
 
            <div id="map-navigation" class="map-navigation">
-             Locations around the Salish Sea where I study mussels. This includes <a href="#" data-zoom="12" data-position="47.94,-124.657">Olympic National Park</a>, <a href="#" data-zoom="12" data-position="48.2225,-122.6934">Penn Cove on Whidbey Island</a> and UW's <a href="#" data-zoom="12" data-position="48.546,-123.012">Friday Harbor Research Lab</a>.
+             Locations around the Salish Sea where I study mussels. This includes <a href="#" data-zoom="12" data-position="47.94,-124.657">Olympic National Park</a>, <a href="#" data-zoom="12" data-position="48.2225,-122.6934">Penn Cove on Whidbey Island</a> and UW's <a href="#" data-zoom="12" data-position="48.546,-123.012">Friday Harbor Labs</a>.
 
            </div>
 
@@ -96,9 +96,6 @@
       function onEachFeature(feature, layer) {
         var popupContent = "<p>" + feature.properties.Name + "</p>"
 
-        if (feature.properties && feature.properties.Species) {
-          popupContent += feature.properties.Species;
-        }
 
         layer.bindPopup(popupContent);
       }
