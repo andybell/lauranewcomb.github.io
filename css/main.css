@@ -42,7 +42,7 @@ h6 {
 .content-section-first {
     padding-top: 25px;
     padding-bottom: 25px;
-    background-color: #9999ff;
+    background-color: #81BEF7;
 }
 .content-section-first-white {
     padding-top: 75px;
@@ -52,7 +52,7 @@ h6 {
 
 .content-section-blue {
     padding: 10px;
-    background-color: #9999ff;
+    background-color: #81BEF7;
 }
 
 .content-section-white {
@@ -116,17 +116,17 @@ p.copyright {
 .circle {
 	width: 150px;
 	height: 150px;
-	background: #9999ff;
+	background: #81BEF7;
 	-moz-border-radius: 75px;
 	-webkit-border-radius: 75px;
 	border-radius: 75px;
   text-align: center;
   margin: 0 auto;
-  border: 1px solid #9999ff;
+  border: 1px solid #81BEF7;
 }
 
 .circle:hover{
-  background: #A6A8C1;
+  background: #A9D0F5;
 }
 
 .circle span {
