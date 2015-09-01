@@ -41,13 +41,13 @@ h6 {
 }
 
 .content-section-dark {
-	padding: 10px;
+	padding: 20px;
 	background-color: #131f4a;
 	color: #f3f3f3;
 }
 
 .content-section-white {
-	padding: 10px;
+	padding: 20px;
 	background-color: #f3f3f3;
 	color: #131f4a;
 	border-top: 1px solid #f5f5f5;
@@ -148,7 +148,7 @@ p.copyright {
 }
 
 .navbar-pad {
-	padding-top: 50px;
+	padding-top: 30px;
 }
 
 .intro-header {
