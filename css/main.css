@@ -119,6 +119,10 @@ p.copyright {
 	margin: 0 auto;
 }
 
+.circlelink {
+	padding: 10px;
+}
+
 .circle:hover {
 	background: #105596;
 }
